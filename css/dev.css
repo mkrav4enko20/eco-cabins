@@ -1,0 +1,130 @@
+@media screen and (max-width: 1024px) {
+    .material {
+        flex-direction: column-reverse;
+    }
+    .material__desc {
+        margin-top: 0;
+    }
+    .material__img.swiper-container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width: 768px) {
+    .home, .innovation, .description, .footer {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 0;
+    }
+    .home {
+        height: 600px;
+    }
+    .home__container {
+        display: block;
+    }
+    .network {
+        width: 600px;
+    }
+    .home__play {
+        margin-top: 12px;
+    }
+    .innovation {
+        padding-bottom: 35px;
+    }
+    .description {
+        display: block;
+        text-align: center;
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    .description__container {
+        margin-left: 0;
+    }
+    .description__bloc,
+    .description__bloc:nth-child(n + 3) {
+        margin-top: 12px;
+    }
+    .description__bloc {
+        flex-basis: 33.3%;
+    }
+    .material__desc {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+    .material__text {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .material p {
+        max-width: none;
+    }
+}
+@media screen and (max-width: 640px) {
+    nav {
+        display: none;
+    }
+    .home__title {
+        font-size: 24px;
+    }
+    .network {
+        display: none;
+    }
+    .home__container {
+        margin-top: 35px; 
+    }
+    .home {
+        padding-top: 35px;
+        padding-bottom: 35px;
+        height: auto;
+    }
+    .header {
+        padding-top: 0;
+    }
+    .material__img.swiper-container {
+        margin-top: 0;
+        max-width: 100%;
+    }
+    .material__img .swiper-slide img {
+        max-width: 100%;
+    }
+    .innovation .container {
+        display: block;
+    }
+    .innovation__text {
+        margin-top: 1em;
+    }
+    .description__img {
+        max-width: 100%;
+    }
+    .description__bloc {
+        flex-basis: 48%;
+    }
+    .footer__logo ~ .footer__text {
+        display: none;
+    }
+    .footer__logo {
+        margin-right: 0;
+    }
+    .header__burger {
+        display: flex;
+    }
+}
+@media screen and (max-width: 420px) {
+    .description__bloc {
+        flex-basis: 100%;
+    }
+    .modal {
+        max-width: 80%;
+    }
+    .modal form {
+        flex-direction: column;
+    }
+    .modal input {
+        height: 38px;
+        box-sizing: border-box;
+    }
+    .modal button {
+        margin-left: 0;
+        margin-top: 16px;
+    }
+}
